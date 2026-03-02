@@ -1,0 +1,48 @@
+.app {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../imgs/P1440617-Enhanced-NR-2.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .search-section {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-section input {
+    width: 300px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  .search-section button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 18px;
+    font-size: 14px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .search-section button:hover {
+    background-color: #0056b3;
+  }
+
+  .nav-search {
+    padding: 0; /* Remove padding from the .nav-search div */
+}
